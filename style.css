@@ -1,0 +1,146 @@
+
+@font-face{
+    font-family: 'Kodchasan';
+    src: url(font/Kodchasan-Bold.ttf)
+}
+.container{
+    position: relative;
+    width: 100%;
+    background-color: #1e1e1e;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    align-items: center;
+}
+body{
+    background-color : #1e1e1e;
+    height : 100%;
+}
+
+/*header*/
+header{
+    height : 152px;
+    width : 100%;
+    background-color : #1e1e1e;
+    color : white;
+    margin : 20px auto;
+}
+.ironic-login{
+    color : white;
+    border : 2px solid white;
+    padding : 5px;
+    margin : 5px;
+    font-family: kodchasan;
+    background-color : #1e1e1e;
+    border-radius: 3px;
+    right : 30px;
+}
+.ironic-login:hover{
+    color : white;
+    border : 2px solid white;
+    padding : 5px;
+    font-family: kodchasan;
+    background-color : #666666;
+    border-radius: 3px;
+}
+.ironic-logo{
+    font-size : 36px;
+    width: 110px;
+    font-family: Kodchasan;
+    letter-spacing: 3px;
+    float : left;
+    padding : 20px 55px 20px 15px;
+
+}
+header .ironic-logo{
+    border-right: 1px solid white;
+}
+header .ironic-logo:hover{
+    border-right: 1px solid white;
+    background-color : #666666;
+}
+.nav div{
+    list-style : none;
+    font-family : kodchasan;
+    letter-spacing: 3px;
+    float : left;
+    padding : 30px 55px 30px 55px;
+}
+.nav div:hover{
+    list-style : none;
+    font-family : kodchasan;
+    letter-spacing: 3px;
+    float : left;
+    padding : 30px 55px 30px 55px;
+    background-color : #666666;
+}
+/*main*/
+#container-content{
+    width : 100%;
+    display : flex;
+    justify-content : center;
+    
+}
+#container-content div{
+    margin : 32px;
+    list-style: none;
+    object-position: center;
+    
+}
+#container-content img{
+    width : 280px;
+    height : 407px;
+}
+#container-arrow{
+    display: flex;
+    justify-content: center;
+}
+#container-arrow .arrows{
+    height : 100px;
+    display: flex;
+    justify-content : center;
+}
+.arrows img{
+    height : 50px;
+    width : 50px;
+    padding : 10px;
+    padding-bottom : 30px;
+}
+/*footer*/
+footer{
+    background-color : #666666;
+    padding-top : 5px;
+    padding-bottom : 5px;
+    bottom : 0;
+    text-align: center;
+    color : white;
+}
+.footer .ironic-logo{
+    padding-top: 120px;
+    position : absolute;
+    display: flex;
+    padding-bottom : 120px;
+    color : white;
+    left : 30px;
+}
+.follow-us{
+    padding-top : 30px;
+    font-size : 15px;
+    font-family : kodchasan;
+    letter-spacing: 3px;
+    font-size : 20px;
+}
+
+.list li{
+    list-style: none;
+    float : left;
+}
+
+.logo{
+    width : 15px;
+    height : 15px;
+    float : left;
+    padding : 20px 22px 10px 22px;
+}
+
+

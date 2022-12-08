@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="shortcut icon" href="logo.png">
+    <title>IRONIC</title>
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <div class = "ironic-logo">
+                <strong>IRONIC</strong>
+            </div>
+            <div class = "nav">
+                <div> ABOUT</div>
+                <div>HISTORY</div>
+                <div>CONTACT</div>
+            </div>            
+            <div id = "login">
+                <a href="index2.html">
+                    <submit class = "ironic-login">LOGIN</submit>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id = "container-content">       
+            <div><img src="assets/photos/1.jpg" alt="" class = "content"></div>
+            <div><img src="assets/photos/2.jpeg" alt="" class = "content"></div>
+            <div><img src="assets/photos/3.jpg" alt="" class = "content"></div>   
+            <div><img src="assets/photos/4.jpg" alt="" class = "content"></div>
+            <div><img src="assets/photos/5.jpg" alt="" class = "content"></div>
+            <div><img src="assets/photos/6.jpg" alt="" class = "content"></div>
+            <div><img src="assets/photos/7.jpg" alt="" class = "content"></div>   
+        </div>
+        <div id = "container-arrow"> 
+            <div class = "arrows">
+                <div class = "previousArrow"><img src="assets/button/back.png" alt=""></div> 
+                <div class = "nextArrow"><img src="assets/button/next.png" alt=""></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&#169 2021 Ironic Clothing. All rights reserved.</p>
+    </footer>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src = "slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#container-content').slick({
+                centerMode: true,
+                centerPadding: '5px',
+                slidesToShow: 4,
+                prevArrow: $('.previousArrow'),
+                nextArrow: $('.nextArrow'),
+            });
+        });
+    </script>
+    </body>
+</html>
